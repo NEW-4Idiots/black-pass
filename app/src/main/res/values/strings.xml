@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">blackpass</string>
+    <string name="begin_button">시작하기</string>
+    <string name="begin_button2">Google로 시작하기</string>
 </resources>

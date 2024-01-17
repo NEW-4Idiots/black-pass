@@ -1,14 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-    <TextView
-        android:id="@+id/title"
-        android:layout_width="wrap_content"
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="안녕"
-        android:textSize="205sp"
-        android:gravity="center"
-        android:layout_gravity="center"/>
-</LinearLayout>
+        android:background="@drawable/beginning_background"></ImageView>
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo"
+        android:layout_centerInParent="true"></ImageView>
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이제 블랙패스와 함께 \n패스하세요."
+        android:textColor="@color/white"
+        android:textSize="32dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/logo"
+        android:layout_centerInParent="true"
+        android:fontFamily="@font/gmarketsansttfbold"
+        android:layout_marginTop="15dp"
+        ></TextView>
+
+    <Button
+        android:id="@+id/begin_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="200dp"
+        android:paddingHorizontal="113dp"
+        android:background="@drawable/begin_button"
+        android:fontFamily="@font/gmarketsansttfbold"
+        android:text="@string/begin_button"
+        android:textAlignment="center"
+        android:textSize="13dp"></Button>
+
+    <Button
+        android:id="@+id/begin_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/begin_button"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/begin_button"
+        android:button="@null"
+        android:drawableStart="@drawable/google_logo"
+        android:drawablePadding="45dp"
+        android:fontFamily="@font/gmarketsansttfbold"
+        android:paddingStart="13dp"
+        android:paddingRight="82dp"
+        android:text="@string/begin_button2"
+        android:textAllCaps="false"
+        android:textSize="13dp"></Button>
+
+</RelativeLayout>
