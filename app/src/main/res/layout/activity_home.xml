@@ -12,7 +12,6 @@
         android:layout_weight="1"
         android:id="@+id/containers"
         />
-
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/navigation_view"
         android:layout_width="match_parent"
