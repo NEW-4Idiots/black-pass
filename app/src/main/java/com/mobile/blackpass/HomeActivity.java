@@ -1,11 +1,15 @@
 package com.mobile.blackpass;
 
+import static androidx.core.content.ContentProviderCompat.requireContext;
+
 import com.google.android.material.navigation.NavigationView;
 import com.mobile.blackpass.R;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -60,7 +64,6 @@ public class HomeActivity extends AppCompatActivity {
 
         binding.navigationView.setOnItemSelectedListener(navListener);
 
-        binding.ragistration.setOnClickListener();
     }
 
 }
