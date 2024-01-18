@@ -9,8 +9,7 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
+        android:layout_height="781dp">
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -21,14 +20,13 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
-
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="6dp"
                 app:cardBackgroundColor="#FFFFFF"
                 app:cardCornerRadius="12dp"
-                app:cardElevation="2dp" >
+                app:cardElevation="2dp">
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
@@ -40,7 +38,7 @@
                         android:layout_marginLeft="14dp"
                         android:layout_marginTop="14dp"
                         app:layout_constraintLeft_toLeftOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"/>
+                        app:layout_constraintTop_toTopOf="parent" />
                     <TextView
                         android:id="@+id/ragist_message"
                         android:layout_width="wrap_content"
@@ -50,19 +48,14 @@
                         android:textColor="#8e8e8e"
                         android:textSize="27dp"
                         app:layout_constraintRight_toRightOf="parent"
-                        android:layout_marginTop="45dp"
-                        app:layout_constraintLeft_toLeftOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"/>
-
+                        app:layout_constraintTop_toTopOf="parent" />
                     <ImageView
                         android:layout_width="324dp"
                         android:layout_height="235dp"
                         android:layout_marginTop="224dp"
                         android:background="@drawable/image"
                         app:layout_constraintRight_toRightOf="parent"
-                        app:layout_constraintLeft_toLeftOf="parent"
-                        app:layout_constraintTop_toTopOf="parent"/>
-
+                        app:layout_constraintTop_toTopOf="parent" />
                     <Button
                         android:id="@+id/ragistration"
                         android:layout_width="320dp"
@@ -80,7 +73,6 @@
             </androidx.cardview.widget.CardView>
         </androidx.cardview.widget.CardView>
     </androidx.constraintlayout.widget.ConstraintLayout>
-
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
