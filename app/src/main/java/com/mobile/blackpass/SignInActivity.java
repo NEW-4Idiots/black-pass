@@ -1,29 +1,30 @@
 package com.mobile.blackpass;
 
+
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.compose.foundation.interaction.DragInteraction;
 
-import com.mobile.blackpass.databinding.ActivityMainBinding;
+import com.mobile.blackpass.databinding.ActivitySignInBinding;
 
-public class MainActivity extends AppCompatActivity {
-    ActivityMainBinding binding;
+public class SignInActivity extends AppCompatActivity {
+    ActivitySignInBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) { // 뷰 바인딩 기본 at Java
         super.onCreate(savedInstanceState);
-        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        binding = ActivitySignInBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-        binding.beginButton.setOnClickListener(v -> {
+        binding.leftArrow.setOnClickListener(v -> {
             Intent intent = new Intent(getApplicationContext(), SignActivity.class);
             startActivity(intent);
         });
-    }
 
+        binding.button.setOnClickListener(v -> {
+            Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+            startActivity(intent);
+        });
+    }
 }

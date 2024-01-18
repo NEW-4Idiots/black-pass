@@ -68,4 +68,9 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
     implementation ("androidx.appcompat:appcompat:1.1.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.2.0-alpha07")
+    implementation("androidx.constraintlayout:constraintlayout-compose:1.1.0-alpha07")
+    implementation ("com.google.android.material:material:1.4.0")
+    implementation ("androidx.cardview:cardview:1.0.0")
+
 }
