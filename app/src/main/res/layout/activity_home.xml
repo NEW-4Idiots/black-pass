@@ -39,16 +39,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
-                    <Button
-                        android:id="@+id/left_arrow"
-                        android:layout_width="26dp"
-                        android:layout_height="26dp"
-                        android:layout_marginLeft="14dp"
-                        android:layout_marginTop="14dp"
-                        android:background="@drawable/left_arrow"
-                        app:layout_constraintLeft_toLeftOf="parent"
-                        app:layout_constraintTop_toTopOf="parent" />
-
                     <TextView
                         android:id="@+id/ragist_message"
                         android:layout_width="wrap_content"

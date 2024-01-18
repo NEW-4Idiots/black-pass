@@ -3,6 +3,7 @@ package com.mobile.blackpass;
 import com.google.android.material.navigation.NavigationView;
 import com.mobile.blackpass.R;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -58,6 +59,8 @@ public class HomeActivity extends AppCompatActivity {
         };
 
         binding.navigationView.setOnItemSelectedListener(navListener);
+
+        binding.ragistration.setOnClickListener();
     }
 
 }
