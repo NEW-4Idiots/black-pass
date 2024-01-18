@@ -11,7 +11,7 @@
         android:layout_marginLeft="14dp"
         android:layout_marginTop="14dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></Button>
+        app:layout_constraintTop_toTopOf="parent"/>
     <TextView
         android:id="@+id/input_password"
         android:layout_width="wrap_content"
@@ -24,7 +24,7 @@
         android:layout_marginLeft="28dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        ></TextView>
+        />
     <TextView
         android:id="@+id/sign_message"
         android:text="@string/sign_message2"
@@ -37,7 +37,7 @@
         android:layout_marginTop="6dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/input_password"
-        ></TextView>
+        />
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/edit_password"
         app:endIconMode="password_toggle"
@@ -63,7 +63,7 @@
         app:layout_constraintTop_toBottomOf="@+id/edit_password"
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginLeft="32dp"
-        ></TextView>
+        />
     <Button
         android:id="@+id/button"
         android:layout_width="350dp"
@@ -77,5 +77,5 @@
         android:layout_marginBottom="18dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        ></Button>
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>

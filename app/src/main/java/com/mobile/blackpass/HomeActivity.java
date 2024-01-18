@@ -1,5 +1,6 @@
 package com.mobile.blackpass;
 
+import com.google.android.material.navigation.NavigationView;
 import com.mobile.blackpass.R;
 
 import android.os.Bundle;
@@ -51,7 +52,7 @@ public class HomeActivity extends AppCompatActivity {
                 selectedFragment = fragment_video;
             }
 
-            getSupportFragmentManager().beginTransaction().replace(binding.containers.getId(), selectedFragment).commit();
+            getSupportFragmentManager().beginTransaction().replace(R.id.containers, selectedFragment).commit();
 
             return true;
         };

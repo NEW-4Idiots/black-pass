@@ -21,5 +21,10 @@ public class SignInActivity extends AppCompatActivity {
             Intent intent = new Intent(getApplicationContext(), SignActivity.class);
             startActivity(intent);
         });
+
+        binding.button.setOnClickListener(v -> {
+            Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+            startActivity(intent);
+        });
     }
 }

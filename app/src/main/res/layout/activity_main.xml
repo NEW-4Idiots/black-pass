@@ -7,13 +7,13 @@
         android:id="@+id/background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/beginning_background"></ImageView>
+        android:background="@drawable/beginning_background"/>
     <ImageView
         android:id="@+id/logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/logo"
-        android:layout_centerInParent="true"></ImageView>
+        android:layout_centerInParent="true"/>
     <TextView
         android:id="@+id/text1"
         android:layout_width="wrap_content"
@@ -26,7 +26,7 @@
         android:layout_centerInParent="true"
         android:fontFamily="@font/gmarketsansttfbold"
         android:layout_marginTop="15dp"
-        ></TextView>
+        />
 
     <Button
         android:id="@+id/begin_button"
@@ -40,7 +40,7 @@
         android:fontFamily="@font/gmarketsansttfbold"
         android:text="@string/begin_button"
         android:textAlignment="center"
-        android:textSize="13dp"></Button>
+        android:textSize="13dp"/>
 
     <Button
         android:id="@+id/begin_button2"
@@ -58,5 +58,5 @@
         android:paddingRight="82dp"
         android:text="@string/begin_button2"
         android:textAllCaps="false"
-        android:textSize="13dp"></Button>
+        android:textSize="13dp"/>
 </RelativeLayout>
