@@ -19,5 +19,9 @@
     <string name="search_file">파일별</string>
     <string name="search_date">일별</string>
     <string name="time">xx시 xx분</string>
-    <string name="device_lock">디바이스가 연결되었습니다</string>
+    <string name="device_lock">디바이스가 연결되었습니다</string>'
+    <string name="user_name">사용자 이름</string>
+    <string name="user_info">개인정보</string>
+    <string name="example_email">blackpass@gmail.com</string>
+    <string name="example_userinfo">010101-3******</string>
 </resources>

@@ -45,8 +45,11 @@ public class VideoFragment extends Fragment {
 
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
+        webView.getSettings().setSupportZoom(true);
+        webView.getSettings().setBuiltInZoomControls(true);
+        webView.getSettings().setUseWideViewPort(true);
 
-        webView.loadUrl("http://192.168.219.112:8081/");
+        webView.loadUrl("http://192.168.0.75:8081/");
 
         return view;
     }
